@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.DS_Store
+
+# Large, fully-regenerable synthetic data/database files -- run the
+# corresponding generate_*.py / setup_sqlite_db.py script to recreate them.
+01-sas-to-python-r-migration/delinquency_roll_rate_analysis/data/account_month_delinquency.csv
+03-sql-analytics-portfolio/portfolio.db

@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+
+# Optional -- only needed for the AI-assisted mode of the projects in
+# 04-ai-agentic-workflows/ (both projects run without it via their
+# rule-based fallback modes)
+anthropic

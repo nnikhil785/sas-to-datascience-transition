@@ -1,0 +1,12 @@
+{
+  "max_missing_pct": 3.0,
+  "required_columns": ["customer_id", "credit_score", "annual_income", "state"],
+  "unique_columns": ["customer_id"],
+  "range_checks": {
+    "credit_score": [300, 850]
+  },
+  "allowed_values": {
+    "state": ["TX", "CA", "IA", "NY", "MI"],
+    "product_type": ["Credit Card", "Auto Loan", "Mortgage", "Student Loan"]
+  }
+}

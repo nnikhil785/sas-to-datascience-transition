@@ -1,0 +1,24 @@
+variable,bin,points
+BASE_SCORE,-,600
+credit_score,"(499.999, 641.0]",-16
+credit_score,"(641.0, 681.5]",-3
+credit_score,"(681.5, 722.0]",3
+credit_score,"(722.0, 850.0]",15
+utilization,"(0.001, 0.16]",7
+utilization,"(0.16, 0.265]",2
+utilization,"(0.265, 0.395]",-1
+utilization,"(0.395, 0.866]",-11
+dti,"(0.019, 0.236]",3
+dti,"(0.236, 0.318]",1
+dti,"(0.318, 0.401]",-1
+dti,"(0.401, 0.837]",-4
+delinquencies_24mo,"(-0.001, 1.0]",-1
+delinquencies_24mo,"(1.0, 4.0]",-10
+months_on_book,"(0.999, 30.0]",-1
+months_on_book,"(30.0, 60.0]",0
+months_on_book,"(60.0, 90.0]",0
+months_on_book,"(90.0, 119.0]",1
+income,"(14999.999, 45077.5]",-1
+income,"(45077.5, 61253.56]",0
+income,"(61253.56, 77731.998]",0
+income,"(77731.998, 149483.58]",1

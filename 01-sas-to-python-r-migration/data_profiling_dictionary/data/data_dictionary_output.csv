@@ -1,0 +1,8 @@
+name,dtype,n_missing,pct_missing,n_distinct,min,mean,max
+customer_id,str,0,0.0,500,,,
+account_open_date,datetime64[us],0,0.0,453,,,
+credit_score,float64,10,2.0,268,500.0,676.96,849.0
+annual_income,float64,20,4.0,480,2969.47,64719.21,121576.72
+product_type,str,0,0.0,4,,,
+state,str,0,0.0,5,,,
+is_delinquent,int64,0,0.0,2,0.0,0.07,1.0

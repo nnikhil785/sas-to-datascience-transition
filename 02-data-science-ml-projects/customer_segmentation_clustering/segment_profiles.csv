@@ -1,0 +1,5 @@
+cluster,recency,frequency,monetary,n_customers,segment_name
+0,133.7,5.3,439.2,508,At Risk (was active)
+1,26.2,25.4,3052.2,164,Champions
+2,298.6,2.8,204.2,471,Lapsed / Low Value
+3,48.8,13.2,1102.8,357,Loyal / Growing
