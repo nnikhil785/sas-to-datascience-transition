@@ -17,10 +17,12 @@ Python, R, SQL-based analytics engineering, and AI-assisted workflows.
 ## Structure
 
 ```
-01-sas-to-python-r-migration/   Real SAS patterns rebuilt side-by-side in Python and R
-02-data-science-ml-projects/    End-to-end ML projects (classification, clustering, scorecards)
-03-sql-analytics-portfolio/     Advanced SQL (window functions, CTEs) against a runnable SQLite DB
-04-ai-agentic-workflows/        AI-assisted analytics tooling built with Claude
+01-sas-to-python-r-migration/          Real SAS patterns rebuilt side-by-side in Python and R
+02-data-science-ml-projects/           End-to-end ML projects (classification, clustering, scorecards)
+03-sql-analytics-portfolio/            Advanced SQL (window functions, CTEs) against a runnable SQLite DB
+04-ai-agentic-workflows/               AI-assisted analytics tooling built with Claude
+05-experimentation-and-causal-inference/  A/B testing, power analysis, and peeking-bias simulation
+06-time-series-forecasting/            Holt-Winters portfolio delinquency forecast vs. naive baseline
 ```
 
 | Folder | Highlights |
@@ -29,6 +31,8 @@ Python, R, SQL-based analytics engineering, and AI-assisted workflows.
 | [`02-data-science-ml-projects/`](02-data-science-ml-projects/) | A credit-risk scorecard (logistic regression + gradient boosting), a churn classifier, and RFM/K-Means customer segmentation |
 | [`03-sql-analytics-portfolio/`](03-sql-analytics-portfolio/) | Window-function and CTE-based analytical queries against a synthetic lending portfolio in SQLite |
 | [`04-ai-agentic-workflows/`](04-ai-agentic-workflows/) | A SAS macro documenter and a data-quality review agent, both usable standalone or upgraded with Claude |
+| [`05-experimentation-and-causal-inference/`](05-experimentation-and-causal-inference/) | Power/sample-size analysis, two-proportion z-test with CI, and a simulation showing why "peeking" at results early inflates false positives |
+| [`06-time-series-forecasting/`](06-time-series-forecasting/) | Seasonal decomposition and a Holt-Winters forecast of portfolio delinquency, backtested against a naive-seasonal baseline with a 6-month forward forecast |
 
 ## A note on data
 
@@ -62,6 +66,11 @@ environment to execute.
 Recruiters and hiring managers reviewing this repo for a Data
 Analyst/Scientist role can see, in order: (1) the exact migration from
 the SAS skill set already on the resume, (2) applied ML fundamentals,
-(3) SQL depth, and (4) practical experience integrating AI tools into
-real analytics workflows — matching the four things most Data
-Science/ML job postings ask for.
+(3) SQL depth, (4) practical experience integrating AI tools into real
+analytics workflows, (5) experiment design and analysis, and (6)
+forward-looking forecasting — matching what most Data Science/ML job
+postings ask for.
+
+This repo is also a living portfolio, not a one-time drop — see
+[`ROADMAP.md`](ROADMAP.md) for what's already built and what's planned
+next.

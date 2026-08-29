@@ -5,14 +5,6 @@ Science/ML career transition — new projects are added over time rather
 than all at once, each one targeting a specific gap or skill relevant to
 roles being applied for.
 
-## In progress / next up
-
-- [ ] **Time-series forecasting** — forecasting portfolio delinquency or
-  utilization trend with `statsmodels`/Prophet. Builds directly on the
-  "forecasting portfolio and cost trends" work already in
-  `02-data-science-ml-projects/`, with a proper forecasting model behind
-  it instead of trend reporting alone.
-
 ## Later
 
 - [ ] **Model serving** — a small FastAPI service wrapping the credit
@@ -38,3 +30,7 @@ roles being applied for.
   — hypothesis testing, confidence intervals, and power/sample-size
   analysis on a synthetic checkout-conversion test, plus a peeking-bias
   simulation
+- [x] Time-series forecasting (`06-time-series-forecasting/`) — Holt-Winters
+  forecast of portfolio delinquency rate, backtested against a
+  naive-seasonal baseline, with a 6-month forward forecast and confidence
+  band
